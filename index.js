@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.get('/member', function (req, res) {
+app.get('/naver', function (req, res) {
    var api_url = 'https://openapi.naver.com/v1/nid/me';
    var request = require('request');
    var options = {
@@ -23,6 +23,6 @@ app.get('/member', function (req, res) {
    });
  });
  app.listen(3000, function () {
-   console.log('http://127.0.0.1:3000/member app listening on port 3000!');
+   console.log('http://127.0.0.1:3000/naver app listening on port 3000!');
  });
 
