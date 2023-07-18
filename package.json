@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker": "docker build . -t ghcr.io/teammistake/dex-proxy && docker push ghcr.io/teammistake/dex-proxy"
+    "docker": "docker build . -t ghcr.io/teammistake/dex-proxy:latest && docker push ghcr.io/teammistake/dex-proxy:latest"
   },
   "author": "",
   "license": "ISC",
